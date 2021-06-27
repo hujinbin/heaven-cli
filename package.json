@@ -1,0 +1,25 @@
+{
+  "name": "heaven-cli",
+  "version": "1.0.0",
+  "description": "前端开发的脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "heaven": "heaven.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hujinbin/heaven-cli.git"
+  },
+  "author": "hujinbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hujinbin/heaven-cli/issues"
+  },
+  "homepage": "https://github.com/hujinbin/heaven-cli#readme"
+}
