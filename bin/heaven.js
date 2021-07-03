@@ -14,6 +14,7 @@ const minimist = require('minimist')
 
 const program = require('commander')
 // const loadCommand = require('../lib/util/loadCommand')
+const init = require("../lib/init");
 
 program
   .version(`heaven-cli ${require('../package').version}`)
@@ -26,7 +27,8 @@ program
   .option('-c, --clone', 'Use git clone when fetching remote template')
   .option('--offline', 'Use cached template')
   .action(() => {
-    loadCommand('init', 'heaven-cli')
+    init()
+    // loadCommand('init', 'heaven-cli')
   })
 
  
