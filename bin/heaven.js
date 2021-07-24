@@ -1,19 +1,15 @@
 #!/usr/bin/env node
 
-const requiredVersion = require('../package.json').engines.node
 const leven = require('leven')
 
 
-checkNodeVersion(requiredVersion, 'heaven-cli')
-
 const fs = require('fs')
 const path = require('path')
-const slash = require('slash')
+// const slash = require('slash')
 const minimist = require('minimist')
 
 
 const program = require('commander')
-// const loadCommand = require('../lib/util/loadCommand')
 const init = require("../lib/init");
 
 program
@@ -26,8 +22,8 @@ program
   .description('generate a project from a remote template (legacy API, requires @heaven-cli)')
   .option('-c, --clone', 'Use git clone when fetching remote template')
   .option('--offline', 'Use cached template')
-  .action(() => {
-    init()
+  .action((template, name) => {
+    init(template, name)
     // loadCommand('init', 'heaven-cli')
   })
 

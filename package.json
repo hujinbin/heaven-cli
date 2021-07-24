@@ -4,7 +4,7 @@
   "description": "前端开发的脚手架工具",
   "main": "index.js",
   "bin": {
-    "heaven": "heaven.js"
+    "heaven": "bin/heaven.js"
   },
   "directories": {
     "lib": "lib"
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/hujinbin/heaven-cli/issues"
   },
-  "homepage": "https://github.com/hujinbin/heaven-cli#readme"
+  "homepage": "https://github.com/hujinbin/heaven-cli#readme",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.2",
+    "leven": "^3.1.0",
+    "ora": "^5.4.1"
+  }
 }
