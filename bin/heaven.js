@@ -1,13 +1,7 @@
 #!/usr/bin/env node
-
 const leven = require('leven')
-
-
-const fs = require('fs')
-const path = require('path')
-// const slash = require('slash')
-const minimist = require('minimist')
-
+// 修改控制台字符串的样式
+const chalk = require('chalk')
 
 const program = require('commander')
 const init = require("../lib/init");

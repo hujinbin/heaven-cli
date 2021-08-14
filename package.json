@@ -17,7 +17,7 @@
     "url": "git+https://github.com/hujinbin/heaven-cli.git"
   },
   "author": "hujinbin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hujinbin/heaven-cli/issues"
   },
