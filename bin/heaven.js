@@ -17,6 +17,7 @@ program
   .option('-c, --clone', 'Use git clone when fetching remote template')
   .option('--offline', 'Use cached template')
   .action((template, name) => {
+    console.log(template, name)
     init(template, name)
     // loadCommand('init', 'heaven-cli')
   })
