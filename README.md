@@ -1,10 +1,10 @@
-# heaven-cli
+# heaven-cli-fe
 前端开发的脚手架工具
 
 
 ## 使用
 
-npm install -g heaven-cli
+npm install -g heaven-cli-fe
 heaven init template my-project
 
 

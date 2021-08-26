@@ -1,5 +1,5 @@
 {
-  "name": "heaven-cli",
+  "name": "heaven-cli-fe",
   "version": "0.1.0",
   "description": "前端开发的脚手架工具",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/hujinbin/heaven-cli.git"
   },
-  "author": "hujinbin",
+  "author": "hujinbin <437044048@qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hujinbin/heaven-cli/issues"
