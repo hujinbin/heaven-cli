@@ -15,3 +15,19 @@ heaven init template my-project
   koa-react
   koa-vue
   microservice
+
+
+###  vue
+  vue-cli，webpack5.28版本
+
+### vue-seo
+  基于vue-cli搭建的伪ssr脚手架，webpack5.28版本，打包生成对应的静态html，并跳转到真实网址，用于seo搜索。
+
+###  koa-react
+  koa+react 工程项目骨架，ssr模式，支持mysql和mongodb数据库
+
+###  koa-vue
+  koa+vue 工程项目骨架 mvc结构， 前端vue单页面应用
+
+###  microservice
+  基于vite搭建微前端脚手架
