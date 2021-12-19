@@ -36,4 +36,4 @@ heaven init template my-project
  *  基于vite搭建微前端脚手架
 
 ###  microservice
- *  基于vite搭建微前端脚手架
+ *  vite + vue3 + ts 的后台管理系统模板项目（包含eslint）
