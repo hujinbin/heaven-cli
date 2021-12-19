@@ -12,11 +12,12 @@ heaven init template my-project
 
 可使用 template 包含如下
 
- * vue
+* vue
 * vue-seo
 *  koa-react
 *  koa-vue
 *  microservice
+*  vue-admin
 
 
 ###  vue
@@ -30,6 +31,9 @@ heaven init template my-project
 
 ###  koa-vue
   * koa+vue 工程项目骨架 mvc结构， 前端vue单页面应用
+
+###  microservice
+ *  基于vite搭建微前端脚手架
 
 ###  microservice
  *  基于vite搭建微前端脚手架
