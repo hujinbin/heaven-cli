@@ -1,6 +1,6 @@
 {
   "name": "heaven-cli-fe",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "前端开发的脚手架工具",
   "main": "index.js",
   "bin": {

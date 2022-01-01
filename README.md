@@ -23,7 +23,7 @@ heaven init template my-project
 ###  vue
   * vue-cli，webpack5.28版本
 
-### vue-seo
+### vue-seo(开发中)
   * 基于vue-cli搭建的伪ssr脚手架，webpack5.28版本，打包生成对应的静态html，并跳转到真实网址，用于seo搜索。
 
 ###  koa-react
@@ -32,8 +32,8 @@ heaven init template my-project
 ###  koa-vue
   * koa+vue 工程项目骨架 mvc结构， 前端vue单页面应用
 
-###  microservice
+###  microservice (开发中)
  *  基于vite搭建微前端脚手架
 
-###  microservice
+###  vue-admin (开发中)
  *  vite + vue3 + ts 的后台管理系统模板项目（包含eslint）
